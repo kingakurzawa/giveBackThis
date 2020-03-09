@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    @include font-base;
+    font-size: 1.6rem;
+}
