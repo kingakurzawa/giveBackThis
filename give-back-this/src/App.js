@@ -1,10 +1,16 @@
 import React from "react";
-function App() {
-  return (
-    <div className="App">
-      <p>Hello</p>
-    </div>
-  );
-}
+import { HashRouter, Route, Switch } from "react-router-dom";
+import Home from "./components/Home";
 
+const App = () => {
+  return (
+    <>
+      <HashRouter>
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
+      </HashRouter>
+    </>
+  );
+};
 export default App;
