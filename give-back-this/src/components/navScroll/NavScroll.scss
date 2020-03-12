@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  li {
+    margin-top: 100px;
+    padding: 9px 20px;
+    font-size: 18px;
+    text-align: center;
+    list-style: none;
+  }
+  li:hover {
+    border: 0.75px solid #3c3c3c;
+  }
+}

@@ -1,15 +1,10 @@
 import React from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
-import Home from "./components/Home";
+import Header from "./components/header/Header";
 
 const App = () => {
   return (
     <>
-      <HashRouter>
-        <Switch>
-          <Route exact path="/" component={Home} />
-        </Switch>
-      </HashRouter>
+      <Header />
     </>
   );
 };
