@@ -1,13 +1,10 @@
 import React from "react";
 
-class SignIn extends React.Component {
-  render() {
-    return (
-      <>
-        <div>
-        <h2>Załóż konto</h2>
+export default function Login() {
+  return (
+    <div>
+      <h2>Zaloguj się</h2>
       <form>
-        <input></input>
         <input></input>
         <input></input>
       </form>
@@ -15,9 +12,6 @@ class SignIn extends React.Component {
         <button>Załóż konto</button>
         <button>Zaloguj się</button>
       </div>
-        </div>
-      </>
-    );
-  }
+    </div>
+  );
 }
-export default SignIn;
