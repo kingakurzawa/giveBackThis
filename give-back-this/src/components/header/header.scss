@@ -1,39 +1,12 @@
-@import '../../scss/settings/colors';
 
 .header {
     display: flex;
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    padding-right: 142px;
+    padding-right: 14.2rem;
     text-align: right;
     background-image: url("../../assets/Home-Hero-Image.jpg");
     background-repeat: no-repeat;
     background-position: -135% -10%;
-}
-
-.header__welcomeBox {
-    width: 50%;
-    align-self: flex-end;
-    margin: auto 0;
-    text-align: center;
-
-    h1 {
-        font-size: 38px;
-        font-weight: 500;
-    }
-}
-
-.btnWelcome {
-    width: 310px;
-    height: 120px;
-    background: none;
-    border: 0.75px solid $dark2;
-    font-size: 36px;
-    font-weight: 300;
-    opacity: 1;
-
-    &:first-child {
-        margin: 65px 44px;
-    }
 }

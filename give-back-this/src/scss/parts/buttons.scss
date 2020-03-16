@@ -1,0 +1,22 @@
+.bigBtn {
+    width: 29rem;
+    height: 12rem;
+    background: none;
+    border: 0.075rem solid $dark2;
+    font-size: 3.6rem;
+    font-weight: 300;
+    opacity: 1;
+
+    &:first-child {
+        margin: 6.5rem 4.4rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+        color: #000000;
+    }
+}
