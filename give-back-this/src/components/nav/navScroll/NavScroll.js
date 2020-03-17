@@ -12,7 +12,7 @@ import "./NavScroll.scss";
 
 const NavScroll = () => {
   return (
-    <ul className="nav navbar-nav">
+    <ul className="navScroll navbar-nav">
       <li>
         <Link
           activeClass="active"

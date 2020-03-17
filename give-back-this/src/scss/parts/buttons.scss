@@ -2,10 +2,12 @@
     width: 29rem;
     height: 12rem;
     background: none;
-    border: 0.075rem solid $dark2;
+    border: 0.075rem solid #c2c2c2;
     font-size: 3.6rem;
     font-weight: 300;
     opacity: 1;
+    cursor: pointer;
+
 
     &:first-child {
         margin: 6.5rem 4.4rem;

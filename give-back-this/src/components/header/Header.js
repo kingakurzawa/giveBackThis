@@ -8,8 +8,11 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <Nav />
-        <WelcomeBox />
+        <aside className="header-left"></aside>
+        <aside className="header-right">
+          <Nav />
+          <WelcomeBox />
+        </aside>
       </div>
     );
   }

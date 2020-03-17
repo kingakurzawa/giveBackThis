@@ -1,13 +1,8 @@
 @import '../../scss/settings/colors';
 
-.welcomeButtons-box {
-    display: flex;
-    align-items: center;
-    margin-left: -20px;
-}
 
 .welcomeBox {
-    align-self: flex-end;
+    align-self: flex-start;
     margin: auto 0;
     text-align: center;
 
@@ -15,4 +10,10 @@
         font-size: 3.8rem;
         font-weight: 500;
     }
+}
+
+.welcomeButtons-box {
+    display: flex;
+    align-items: center;
+    margin-left: -2rem;
 }
