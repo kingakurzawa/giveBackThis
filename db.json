@@ -1,0 +1,95 @@
+{
+    "organizations non-profit": [{
+        "id": 1,
+        "title": "Lorem Ipsum 1 organization",
+        "author": "Egestas, sed, tempus",
+        "description": "Quis varius quam quisque id diam vel quam elementum pulvinar."
+    }, {
+        "id": 2,
+        "title": "Lorem Ipsum 2 organization",
+        "author": "UNsectetur a erat nam, sit, amet",
+        "description": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue."
+    }, {
+        "id": 3,
+        "title": "Lorem Ipsum 3 organization",
+        "author": "Mi, quis, hendrerit, dolor",
+        "description": "Scelerisque in dictum non consectetur a erat nam."
+    }, {
+        "id": 4,
+        "title": "Lorem Ipsum 4 organization",
+        "author": "Egestas, sed, tempus",
+        "description": "Quis varius quam quisque id diam vel quam elementum pulvinar."
+    }, {
+        "id": 5,
+        "title": "Lorem Ipsum 5 organization",
+        "author": "Ut, aliquam, purus, sit, amet",
+        "description": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue."
+    }, {
+        "id": 6,
+        "title": "Lorem Ipsum 6 organization",
+        "author": "Scelerisque ini, quis",
+        "description": "Hendrerit, dolor non consectetur a erat nam."
+    }, {
+        "id": 7,
+        "title": "Lorem Ipsum 7 organization",
+        "author": "Ea erat namus",
+        "description": "Quis varius quam quisque id diam vel quam elementum pulvinar."
+    }, {
+        "id": 8,
+        "title": "Lorem Ipsum 8 organization",
+        "author": "Nsectetur a erat nam.",
+        "description": "Hvarius quam quisque id diam velm quisque."
+    }, {
+        "id": 9,
+        "title": "Lorem Ipsum 9 organization",
+        "author": "Mectetur a erat at, dolor",
+        "description": "Sc non tellus orci ac auctor augue."
+    }],
+    "fundations": [{
+        "id": 1,
+        "title": "Lorem Ipsum 1 fundation",
+        "author": "Egestas, sed, tempus",
+        "description": "Quis varius quam quisque id diam vel quam elementum pulvinar."
+    }, {
+        "id": 2,
+        "title": "Lorem Ipsum 2 fundation",
+        "author": "UNsectetur a erat nam, sit, amet",
+        "description": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue."
+    }, {
+        "id": 3,
+        "title": "Lorem Ipsum 3 fundation",
+        "author": "Mi, quis, hendrerit, dolor",
+        "description": "Scelerisque in dictum non consectetur a erat nam."
+    }, {
+        "id": 4,
+        "title": "Lorem Ipsum 4 fundation",
+        "author": "Egestas, sed, tempus",
+        "description": "Quis varius quam quisque id diam vel quam elementum pulvinar."
+    }, {
+        "id": 5,
+        "title": "Lorem Ipsum 5 fundation",
+        "author": "Ut, aliquam, purus, sit, amet",
+        "description": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue."
+    }, {
+        "id": 6,
+        "title": "Lorem Ipsum 6 fundation",
+        "author": "Scelerisque ini, quis",
+        "description": "Hendrerit, dolor non consectetur a erat nam."
+    }],
+    "collections": [{
+        "id": 1,
+        "title": "Lorem Ipsum 1 collection",
+        "author": "Egestas, sed, tempus",
+        "description": "Quis varius quam quisque id diam vel quam elementum pulvinar."
+    }, {
+        "id": 2,
+        "title": "Lorem Ipsum 2 collection",
+        "author": "UNsectetur a erat nam, sit, amet",
+        "description": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue."
+    }, {
+        "id": 3,
+        "title": "Lorem Ipsum 3 collection",
+        "author": "Mi, quis, hendrerit, dolor",
+        "description": "Scelerisque in dictum non consectetur a erat nam."
+    }]
+}

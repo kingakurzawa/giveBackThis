@@ -6,6 +6,8 @@ import SignIn from "./components/signIn/SignIn";
 import ThreeColumns from "./components/threeColumns/threeColumns";
 import FourSteps from "./components/fourSteps/FourSteps";
 import AboutUs from "./components/aboutUs/AboutUs";
+import WhoWeHelp from "./components/whoWeHelp/WhoWeHelp";
+import ContactAndFooter from "./components/contactAndFooter/ContactAndFooter";
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
       <ThreeColumns />
       <FourSteps />
       <AboutUs />
+      <WhoWeHelp />
+      <ContactAndFooter />
     </div>
   );
 };

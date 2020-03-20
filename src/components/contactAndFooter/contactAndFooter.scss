@@ -1,0 +1,32 @@
+@import '../../scss/settings/colors';
+
+.contactAndFooter {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    height: 102.6rem;
+    background-image: url("../../assets/Background-Contact-Form.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lightShadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: $lightColor;
+}
+
+.contactAndFooter__box {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14.2rem;
+
+    h2 {
+        font-size: 3.8rem;
+        font-weight: 500;
+    }
+}

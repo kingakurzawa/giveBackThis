@@ -1,0 +1,54 @@
+.whoWeHelp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+
+    h2 {
+        font-size: 3.8rem;
+        font-weight: 500;
+    }
+}
+
+.whoWeHelp__navBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6.5rem;
+    width: 50%;
+
+    &-buttons {
+        display: flex;
+        margin: 5rem 0 6rem 0;
+    }
+
+    &-buttons button {
+        height: 7.9rem;
+        width: 17rem;
+        margin: 0 3rem;
+        font-size: 2.4rem;
+        border: 0.075rem solid transparent;
+        cursor: pointer;
+        outline: none;
+    }
+
+    &-buttons button:nth-of-type(2) {
+        width: 22rem;
+    }
+
+    &-buttons button:focus {
+        border: 0.075rem solid #c2c2c2;
+    }
+
+    &-description {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-description p {
+        width: 75%;
+        font-size: 2.2rem;
+        text-align-last: center;
+    }
+}
