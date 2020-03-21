@@ -1,32 +1,25 @@
 import React from "react";
 import "./organizationsBox.scss";
 
-// class OrganizationsBox extends React.Component {
-//   render() {
-//     return <div className="organizationsBox"><p>jasjjdas</p></div>;
-//   }
-// }
-// export default OrganizationsBox;
 class OrganizationsBox extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      todos: ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"],
+      todos: this.props.list,
       currentPage: 1,
       todosPerPage: 3
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(event) {
+  handleClick(e) {
     this.setState({
-      currentPage: Number(event.target.id)
+      currentPage: Number(e.target.id)
     });
   }
 
   render() {
     const { todos, currentPage, todosPerPage } = this.state;
-
     // Logic for displaying current todos
     const indexOfLastTodo = currentPage * todosPerPage;
     const indexOfFirstTodo = indexOfLastTodo - todosPerPage;
@@ -35,7 +28,6 @@ class OrganizationsBox extends React.Component {
     const renderTodos = currentTodos.map((todo, index) => {
       return <li key={index}>{todo}</li>;
     });
-
     // Logic for displaying page numbers
     const pageNumbers = [];
     for (let i = 1; i <= Math.ceil(todos.length / todosPerPage); i++) {

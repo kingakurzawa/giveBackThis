@@ -4,6 +4,23 @@ import "./whoWeHelp.scss";
 import OrganizationsBox from "../organizationsBox/OrganizationsBox";
 
 class WhoWeHelp extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      lists: []
+    };
+  }
+  handleClick(e) {
+    console.log(e.target.id);
+    fetch(` http://localhost:3000/${e.target.id}`)
+      .then(res => res.json())
+      .then(data => {
+        console.log(data);
+        this.setState({
+          list: data
+        });
+      });
+  }
   render() {
     return (
       <div className="whoWeHelp">
@@ -11,9 +28,15 @@ class WhoWeHelp extends React.Component {
           <h2>Komu pomagamy?</h2>
           <img src={decoration} className="decoration" alt="decoration"></img>
           <div className="whoWeHelp__navBox-buttons">
-            <button>Fundacjom</button>
-            <button>Organizacjom pozarządowym</button>
-            <button>Lokalnym zbiórkom</button>
+            <button id="fundations" onClick={this.handleClick}>
+              Fundacjom
+            </button>
+            <button id="organizations" onClick={this.handleClick}>
+              Organizacjom pozarządowym
+            </button>
+            <button id="collections" onClick={this.handleClick}>
+              Lokalnym zbiórkom
+            </button>
           </div>
           <div className="whoWeHelp__navBox-description">
             <p>
@@ -23,7 +46,7 @@ class WhoWeHelp extends React.Component {
             </p>
           </div>
         </div>
-        <OrganizationsBox />
+        <OrganizationsBox list={this.state.list} />
       </div>
     );
   }
