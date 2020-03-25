@@ -23,15 +23,21 @@ class OrganizationsBox extends React.Component {
     // Logic for displaying current todos
     const indexOfLastTodo = currentPage * todosPerPage;
     const indexOfFirstTodo = indexOfLastTodo - todosPerPage;
-    const currentTodos = todos.slice(indexOfFirstTodo, indexOfLastTodo);
+    let currentTodos = [];
+    if(todos && todos.length) {
+      currentTodos =  todos.slice(indexOfFirstTodo, indexOfLastTodo);
+    }
 
     const renderTodos = currentTodos.map((todo, index) => {
       return <li key={index}>{todo}</li>;
     });
+  
     // Logic for displaying page numbers
     const pageNumbers = [];
-    for (let i = 1; i <= Math.ceil(todos.length / todosPerPage); i++) {
-      pageNumbers.push(i);
+    if(todos && todos.length) {
+      for (let i = 1; i <= Math.ceil(todos.length / todosPerPage); i++) {
+        pageNumbers.push(i);
+      }
     }
 
     const renderPageNumbers = pageNumbers.map(number => {
